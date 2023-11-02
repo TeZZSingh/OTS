@@ -30,7 +30,7 @@ COPY --from=build /GlobalMasterSvc/target/libs ./libs
 
 CMD ["java", "-jar", "OTS.jar"]
 
-EXPOSE 22004
+EXPOSE 22006
 
 
 
