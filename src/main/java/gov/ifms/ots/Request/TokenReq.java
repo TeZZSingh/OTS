@@ -15,7 +15,6 @@ public class TokenReq {
     private float iat;
     private String sub;
     private String upn;
-    @JsonProperty("preferred_username")
     private String preferredUserName;
     private String ssoId;
     private String levelValueId ;

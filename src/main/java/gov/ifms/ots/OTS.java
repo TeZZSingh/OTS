@@ -26,7 +26,7 @@ public class OTS extends Application{
 		classes.add(CreateLinkController.class);
 		classes.add(MenuMasterController.class);
 		classes.add(OTSRequestFilter.class);
-		classes.add(CORSConfig.class);
+		//classes.add(CORSConfig.class);
 		classes.add(OtsException.class);
 		classes.add(GiaBillBudgetDtlController.class);
 		classes.add(GiaGenController.class);
