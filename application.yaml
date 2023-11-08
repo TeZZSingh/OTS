@@ -1,0 +1,26 @@
+javax:
+  sql:
+    DataSource:
+      otsDataSource:
+        dataSourceClassName: oracle.jdbc.pool.OracleDataSource
+        dataSource:
+          url: jdbc:oracle:thin:@10.70.236.206:1521/employee.sdc.raj.in
+          user: OTS
+          password: DeVOTsEMp602#
+
+
+#  cors:
+#    enabled: true
+#    paths:
+#      - path-pattern: "/**"
+#        allow-origins:
+#          - "*"
+#        allow-methods:
+#          - "GET"
+#          - "POST"
+#          - "OPTIONS"
+#        allow-headers:
+#          - "Content-Type"
+#          - "Authorization"
+#          - "Accept"
+#          - "Refer"
